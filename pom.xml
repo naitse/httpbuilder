@@ -24,11 +24,11 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.2.7-SNAPSHOT</version>
-        </dependency>
+      <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.3.6</version>
+      </dependency>
 		<dependency>
             <!-- Only needed for JSON parsing -->
             <groupId>net.sf.json-lib</groupId>

@@ -54,6 +54,18 @@ class GAEClientConnection
     return route;
   }
 
+  public String getId() {
+    return null;
+  }
+
+  public void bind(Socket socket) throws IOException {
+    throw new IOException("not supported");
+  }
+
+  public Socket getSocket() {
+    return null;
+  }
+
   public javax.net.ssl.SSLSession getSSLSession() {
     return null;
   }
